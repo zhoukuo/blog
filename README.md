@@ -66,7 +66,6 @@
 ## - [对面向对象的一些思考](2016/对面向对象的一些思考.md)
 ## - [面向对象设计原则和创建SOLID应用的5个方法](2016/面向对象设计原则和创建SOLID应用的5个方法.md)
 ## - [Rob-Pike：走进Go语言](2016/Rob-Pike：走进Go语言.md)
-## - [Rob-Pike：最有价值的编程忠告](2016/Rob-Pike：最有价值的编程忠告.md)
 ## - [Golang面向对象思想和实现](2016/Golang面向对象思想和实现.md)
 ## - [使用GDB调试GO程序](2016/使用GDB调试GO程序.md)
 ## - [Git-的日常使用](2016/Git-的日常使用.md)
@@ -78,8 +77,8 @@
 ## - [人工智能之父John-McCarthy：演绎人工智能技术传奇](2016/人工智能之父John-McCarthy：演绎人工智能技术传奇.md)
 ## - [Pascal之父Niklaus-Wirth：结构化的程序设计](2016/Pascal之父Niklaus-Wirth：结构化的程序设计.md)
 ## - [面向对象之父Alan-Kay：预测未来，创造未来](2016/面向对象之父Alan-Kay：预测未来，创造未来.md)
-## - [C++之父Bjarne Stroustrup：面向对象的进化与实现](2016/C++之父BjarneStroustrup：面向对象的进化与实现.md)
 ## - [Unix之父、C语言的发明人：Dennis M. Ritchie、Ken Thompson](2016/Unix之父、C语言的发明人：DennisM.Ritchie、KenThompson.md)
+## - [C++之父Bjarne Stroustrup：面向对象的进化与实现](2016/C++之父BjarneStroustrup：面向对象的进化与实现.md)
 ## - [Linus，只是为了好玩](2016/Linus，只是为了好玩.md)
 
 
