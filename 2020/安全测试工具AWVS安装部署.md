@@ -1,5 +1,7 @@
 # 使用AWVS进行安全测试
 
+![](../img/awvs.svg)
+
 Acunetix Web Vulnerability Scanner（AWVS）是一款知名的Web网络漏洞扫描工具，它通过网络爬虫测试你的网站安全，检测流行安全漏洞，最近更新到了13的版本。
 
 ## 安装部署
