@@ -4,6 +4,8 @@
 
 ## 持续交付
 
+## - [Jenkins-CICD配置](2018/Jenkins-CICD配置.md)
+## - [Pipeline流水线设计与实现-shell版](2018/Pipeline流水线设计与实现-shell版.md)
 ## - [使用DRONE和GITEA搭建CI/CD系统](2020/使用drone和gitea搭建CI-CD系统.md)
 ## - [轻量级代码托管解决方案-GITEA](2019/轻量级代码托管解决方案-Gitea.md)
 ## - [GIT工作流程](2018/GIT工作流程.md)
