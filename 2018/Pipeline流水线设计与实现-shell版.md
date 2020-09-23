@@ -19,7 +19,7 @@ CLONE -- BUILD -- PUBLISH -- DEPLOY
 以GIT为例：
 
 ```bash
-zhoukuo@desktop:~/$ git clone -b master https://"zhoukuo:Zk_1981!!!"@github.com/zhoukuo/blog.git
+root@desktop:~/$ git clone -b master https://"username:password"@github.com/username/blog.git
 ```
 
 在Jenkins中，通常可以直接通过页面配置
@@ -35,7 +35,7 @@ zhoukuo@desktop:~/$ git clone -b master https://"zhoukuo:Zk_1981!!!"@github.com/
 每种语言都有自己的构建工具，这里以JAVA为例，JAVA最常用的是Maven：
 
 ```bash
-zhoukuo@desktop:~/$ clean install -pl hospital-web/hospital-web-doctor
+root@desktop:~/$ clean install -pl hospital-web/hospital-web-doctor
 ```
 
 在Jenkins中，通常可以直接通过页面配置
