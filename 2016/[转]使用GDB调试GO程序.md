@@ -14,6 +14,7 @@ GDB是FSF(自由软件基金会)发布的一个强大的类UNIX系统下的程�
 务必保证执行如下操作(保证info goroutines可用)
 
 vim ~/.gdbinit 添加下面一行：
+
 ```
 add-auto-load-safe-path $GOROOT/src/pkg/runtime/runtime-gdb.py
 ```

@@ -7,7 +7,7 @@
 
 #### [轻量级代码托管解决方案-GITEA](2019/轻量级代码托管解决方案-Gitea.md)
 
-#### [转：GIT工作流程](2018/GIT工作流程.md)
+#### [GIT工作流程](2018/GIT工作流程.md)
 
 #### [使用DRONE和GITEA搭建CI/CD系统](2020/使用drone和gitea搭建CI-CD系统.md)
 
