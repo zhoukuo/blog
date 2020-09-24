@@ -5,6 +5,7 @@
 ### 持续集成 / 持续交付
 
 ## <font size=3>- [持续集成（Continuous Integration）](2018/持续集成（Continuous-Integration）.md)
+## <font size=3>- [给产品经理讲讲什么是持续交付和DevOps](2018/给产品经理讲讲什么是持续交付和DevOps.md)
 ## <font size=3>- [Jenkins-CICD配置](2018/Jenkins-CICD配置.md)
 ## <font size=3>- [Pipeline流水线设计与实现-shell版](2018/Pipeline流水线设计与实现-shell版.md)
 ## <font size=3>- [使用DRONE和GITEA搭建CI/CD系统](2020/使用drone和gitea搭建CI-CD系统.md)
