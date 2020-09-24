@@ -2,9 +2,10 @@
 一名devops工程师的技术博客
 
 
-### 持续交付
+### 持续集成 / 持续交付
 
-## <font size=3>- [Jenkins-CICD配置](2018/Jenkins-CICD配置.md) </font>
+## <font size=3>- [持续集成（Continuous Integration）](2018/持续集成（Continuous-Integration）.md)
+## <font size=3>- [Jenkins-CICD配置](2018/Jenkins-CICD配置.md)
 ## <font size=3>- [Pipeline流水线设计与实现-shell版](2018/Pipeline流水线设计与实现-shell版.md)
 ## <font size=3>- [使用DRONE和GITEA搭建CI/CD系统](2020/使用drone和gitea搭建CI-CD系统.md)
 ## <font size=3>- [轻量级代码托管解决方案-GITEA](2019/轻量级代码托管解决方案-Gitea.md)
@@ -16,11 +17,11 @@
 ## <font size=3>- [MAVEN项目的DRONEFILE配置]()
 ## <font size=3>- [NPM项目的DRONEFILE配置]()
 ## <font size=3>- [Docker-入门](2018/Docker-入门.md)
-## <font size=3>- [微服务RESTful接口设计规范](2019/微服务RESTful接口设计规范.md)
+## <font size=3>- [RESTful接口设计规范](2019/微服务RESTful接口设计规范.md)
 ## <font size=3>- [JavaScript编码规范](2019/JavaScript编码规范.md)
 
 
-### 微服务/云原生
+### 微服务 / 云原生
 
 ## <font size=3>- [微服务（Microservices）](2018/微服务（Microservices）.md)
 ## <font size=3>- [微服务12要素](2018/THE-TWELVE-FACTOR-APP.md)
@@ -52,7 +53,7 @@
 ## <font size=3>- [Drawio—自认为最好用的流程图绘制软件](2020/Draw-io-自认为最好用的流程图绘制软件.md)
 
 
-### 测试/运维开发
+### 测试 / 运维开发
 
 ## <font size=3>- [UBUNTU20.04安装后要做哪些事情](2020/UBUNTU20.04安装后要做哪些事情.md)
 ## <font size=3>- [SHELL的使用](2016/shell的使用.md)
@@ -79,7 +80,7 @@
 ## <font size=3>- [Git-的日常使用](2016/Git-的日常使用.md)
 
 
-### IT历史
+### IT历史 / IT文化
 
 ## <font size=3>- [历史上最伟大的12位程序员](2016/历史上最伟大的12位程序员.md)
 ## <font size=3>- [人工智能之父John-McCarthy：演绎人工智能技术传奇](2016/人工智能之父John-McCarthy：演绎人工智能技术传奇.md)
@@ -95,3 +96,4 @@
 ## <font size=3>- [用HEXO搭建静态博客](2016/用hexo搭建静态博客.md)
 ## <font size=3>- [Markdown入门指南](2016/Markdown入门指南.md)
 ## <font size=3>- [Typora——文档编写神器](2018/文档编写神器——Typora.md)
+## <font size=3>- [SCRUM精髓](2020/SCRUM精髓.md)
