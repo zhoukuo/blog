@@ -1,7 +1,6 @@
 # 平凡之路de博客
 一名devops工程师的技术博客
 
-
 ### 持续集成 / 持续交付
 
 ## <font size=3>- [持续集成（Continuous Integration）](2018/持续集成（Continuous-Integration）.md)
