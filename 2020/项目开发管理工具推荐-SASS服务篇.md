@@ -1,5 +1,5 @@
-# 项目开发管理工具推荐-私有化部署篇
-zhoukuo@2020-05-21
+# 项目开发管理工具推荐-SASS服务篇
+zhoukuo@2020-10-10
 
 软件开发是复杂的创造性的劳动，需要依赖大量工具才能完成，因此想要提高软件开发的效率和质量，离不开强大、高效、易用、维护成本低的工具，下面我根据自己的经验，推荐一些好用的工具。
 
@@ -30,11 +30,9 @@ zhoukuo@2020-05-21
 前几年使用的比较多是SVN，近几年基本都使用GIT了，开源项目大都使用Github，虽然免费，但国内访问不稳定，速度慢，因此国内的公司基本都会自己搭建，我先后为公司搭建过两个托管平台，一个是Gitlab，一个是Gitea，Gitlab功能比较全面，但对硬件资源要求比较高，而且性能一般。所以推荐使用另一个开源的git托管平台——Gitea。
 
 
-<img src="https://gitea.51trust.com/img/gitea-lg.png" alt="gitea" width="70" height="70" align="bottom" />
+<img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=355715222,2610893624&fm=26&gp=0.jpg" alt="gitea" width="300" height="100" align="bottom" />
 
-官方网站：https://gitea.io
-
-在线体验：https://gitea.com
+官方网站：https://github.com
 
 
 ## 持续交付
