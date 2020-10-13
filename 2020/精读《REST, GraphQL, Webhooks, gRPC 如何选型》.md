@@ -1,5 +1,7 @@
 # 转：精读《REST,GraphQL,Webhooks,gRPC 如何选型》
 
+原文：https://nordicapis.com/when-to-use-what-rest-graphql-webhooks-grpc/
+
 ## 1. 引言
 
 每当项目进入联调阶段，或者提前约定接口时，前后端就会聚在一起热火朝天的讨论起来。可能 99% 的场景都在约定 Http 接口，讨论 URL 是什么，入参是什么，出参是什么。
