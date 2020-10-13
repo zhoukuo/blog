@@ -2,6 +2,9 @@
 
 原文：https://nordicapis.com/when-to-use-what-rest-graphql-webhooks-grpc/
 
+![](https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/When-to-Use-What-REST-GraphQL-Webhooks-gRPC-1.png)
+
+
 ## 1. 引言
 
 每当项目进入联调阶段，或者提前约定接口时，前后端就会聚在一起热火朝天的讨论起来。可能 99% 的场景都在约定 Http 接口，讨论 URL 是什么，入参是什么，出参是什么。
@@ -33,6 +36,8 @@ end_time=2014-10-01T23:59:59.999Z&amp;page_size=10 \
 ```
 
 ### gRPC
+
+![](https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/grpc_square_reverse_4x-200x200.png)
 
 gRPC 是对 RPC 的一个新尝试，最大特点是使用 protobufs 语言格式化数据。
 
@@ -114,6 +119,8 @@ function main() {
 >也有一些额外手段将 gRPC 转换为 http 服务，让网页端也享受到其高效、低耗的好处。但是不要忘了，RPC 最常用的场景是 IOT 等硬件领域，网页场景也许不会在乎节省几 KB 的流量。
 
 ### GraphQL
+
+![](https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/GraphQL-logo-220x220.png)
 
 GraphQL 不是 REST 的替代品，而是另一种交互形式：**前端决定后端的返回结果**。
 
