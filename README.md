@@ -11,15 +11,15 @@
 ## <font size=3>- [轻量级代码托管解决方案-GITEA](2019/轻量级代码托管解决方案-Gitea.md)
 ## <font size=3>- [转：GIT工作流程](2018/GIT工作流程.md)
 ## <font size=3>- [转：一个成功的GIT分支模型](2016/一个成功的Git分支模型.md)
-## <font size=3>- [敏捷项目管理工具-TAIGA](2020/敏捷项目管理工具-Taiga.md)
-## <font size=3>- [项目开发管理工具推荐](2020/项目开发管理工具推荐.md)
-## <font size=3>- [安全测试工具AWVS安装部署](2020/安全测试工具AWVS安装部署.md)
 ## <font size=3>- [MAVEN项目的DRONEFILE配置]()
 ## <font size=3>- [NPM项目的DRONEFILE配置]()
 ## <font size=3>- [Docker-入门](2018/Docker-入门.md)
+
+### DEVOPS / GITOPS / CHATOPS
+
 ## <font size=3>- [转：GitOps初探](2020/GitOps初探.md)
 ## <font size=3>- [转：一种实现云原生的持续交付模型-GitOps](2020/一种实现云原生的持续交付模型-GitOps.md)
-
+## <font size=3>- [转：ChatOps的前世，今生和未来](2018/ChatOps的前世，今生和未来.md)
 
 ### 微服务 / 云原生
 
@@ -27,17 +27,24 @@
 ## <font size=3>- [转：微服务12要素](2018/THE-TWELVE-FACTOR-APP.md)
 
 
+### 敏捷 / SCRUM
+
+## <font size=3>- [SCRUM精髓](2020/SCRUM精髓.md)
+## <font size=3>- [敏捷项目管理工具-TAIGA](2020/敏捷项目管理工具-Taiga.md)
+## <font size=3>- [项目开发管理工具推荐](2020/项目开发管理工具推荐.md)
+
+
 ### 自动化测试
 
 ## <font size=3>- [转：CURL接口测试入门](2020/CURL接口测试入门.md)
 ## <font size=3>- [POSTMAN接口测试入门](2016/POSTMAN接口测试入门.md)
 ## <font size=3>- [APIFOX试用总结](2020/Apifox试用总结.md)
+## <font size=3>- [安全测试工具AWVS安装部署](2020/安全测试工具AWVS安装部署.md)
 ## <font size=3>- [转：WRK性能测试入门](2020/WRK性能测试入门.md)
 ## <font size=3>- [转：服务端性能测试](2020/服务端性能测试.md)
 ## <font size=3>- [转：深入浅出开源性能测试工具-Locust](2020/深入浅出开源性能测试工具-Locust.md)
 ## <font size=3>- [用 TestNG 和 PowerMock 做单元测试](2016/用TestNG和PowerMock做单元测试.md)
 ## <font size=3>- [Golang单元测试](2016/Golang单元测试.md)
-
 
 ### 自动化运维
 
@@ -99,4 +106,3 @@
 ## <font size=3>- [用HEXO搭建静态博客](2016/用hexo搭建静态博客.md)
 ## <font size=3>- [Markdown入门指南](2016/Markdown入门指南.md)
 ## <font size=3>- [Typora——文档编写神器](2018/文档编写神器——Typora.md)
-## <font size=3>- [SCRUM精髓](2020/SCRUM精髓.md)
