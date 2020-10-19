@@ -14,6 +14,8 @@
 ## <font size=3>- [MAVEN项目的DRONEFILE配置]()
 ## <font size=3>- [NPM项目的DRONEFILE配置]()
 ## <font size=3>- [Docker-入门](2018/Docker-入门.md)
+## <font size=3>- [SPUG运维平台试用](2020/SPUG运维平台试用.md)
+
 
 
 ### DEVOPS / GITOPS / CHATOPS
