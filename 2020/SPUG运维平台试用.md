@@ -66,14 +66,16 @@ spug相对jumpserver来说实现的比较简单，只要配置号登录账号就
 **本地动作1：拉取代码**
 
 ```bash
+EXIST=`curl -s http://192.168.126.39:8082/shared/dev/service/service-cpia/build-${SPUG_RELEASE};echo $?`
+
 if [ "$SPUG_RELEASE" = "" ]; then
     echo '[ERROR] "SPUG_RELEASE"字段为版本号，不能为空！'
     exit -1
-elif [ "$SPUG_DEPLOY_TYPE" = "2" ]; then
-    echo "回滚操作，跳过拉取代码步骤 ..."
+elif [ "$EXIST" = "0" ]; then
+    echo "`date +%T` 该版本的部署包(${SPUG_RELEASE})已存在，跳过此步骤"
     exit 0
-elif [ "$SPUG_RELEASE" = "latest" ]; then
-    echo "跳过拉取代码步骤，直接部署latest版本"
+elif [ "$SPUG_DEPLOY_TYPE" = "2" ]; then
+    echo "`date +%T` 回滚操作，跳过此步骤 ..."
     exit 0
 fi
 
@@ -83,11 +85,13 @@ git clone -b develop http://deploy:deploy2020%40Gitea@gitea.51trust.com/server/c
 
 **本地动作2：构建**
 ```bash
-if [ "$SPUG_DEPLOY_TYPE" = "2" ]; then
-    echo "回滚操作，跳过构建步骤 ..."
+EXIST=`curl -s http://192.168.126.39:8082/shared/dev/service/service-cpia/build-${SPUG_RELEASE};echo $?`
+
+if [ "$EXIST" = "0" ]; then
+    echo "`date +%T` 该版本的部署包(${SPUG_RELEASE})已存在，跳过此步骤"
     exit 0
-elif [ "$SPUG_RELEASE" = "latest" ]; then
-    echo "跳过构建步骤，直接部署latest版本"
+elif [ "$SPUG_DEPLOY_TYPE" = "2" ]; then
+    echo "`date +%T` 回滚操作，跳过此步骤 ..."
     exit 0
 fi
 
@@ -98,11 +102,13 @@ mvn clean install -pl cpia-api-web -am -P dev
 **本地动作3：发布**
 
 ```bash
-if [ "$SPUG_DEPLOY_TYPE" = "2" ]; then
-    echo "回滚操作，跳过发布步骤 ..."
+EXIST=`curl -s http://192.168.126.39:8082/shared/dev/service/service-cpia/build-${SPUG_RELEASE};echo $?`
+
+if [ "$EXIST" = "0" ]; then
+    echo "`date +%T` 该版本的部署包(${SPUG_RELEASE})已存在，跳过此步骤"
     exit 0
-elif [ "$SPUG_RELEASE" = "latest" ]; then
-    echo "跳过发布步骤，直接部署latest版本"
+elif [ "$SPUG_DEPLOY_TYPE" = "2" ]; then
+    echo "`date +%T` 回滚操作，跳过此步骤 ..."
     exit 0
 fi
 
@@ -125,6 +131,10 @@ app_name=cpia.jar
 app_type=maven
 dest_dir=/opt/cpia
 
+if [ "$SPUG_HOST_NAME" = "192.168.126.39" ]; then
+    echo "`date +%T` 当前主机为文件服务器($SPUG_HOST_NAME)，跳过此步骤"
+    exit 0
+fi
 wget http://$source_ip:8082/shared//devops/deploy_spug.sh -O deploy.sh
 sh deploy.sh $source_ip $source_dir $app_name $app_type $dest_dir
 ```
