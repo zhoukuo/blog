@@ -125,16 +125,17 @@ sh upload.sh $source_dir $app_name $dest_ip $dest_dir
 **目标主机动作1：部署**
 
 ```bash
+if [ "$SPUG_HOST_NAME" = "192.168.126.39" ]; then
+    echo "`date +%T` 当前主机为文件服务器($SPUG_HOST_NAME)，跳过此步骤"
+    exit 0
+fi
+
 source_ip=192.168.126.39
 source_dir=dev/service/service-cpia/build-${SPUG_RELEASE}
 app_name=cpia.jar
 app_type=maven
 dest_dir=/opt/cpia
 
-if [ "$SPUG_HOST_NAME" = "192.168.126.39" ]; then
-    echo "`date +%T` 当前主机为文件服务器($SPUG_HOST_NAME)，跳过此步骤"
-    exit 0
-fi
 wget http://$source_ip:8082/shared//devops/deploy_spug.sh -O deploy.sh
 sh deploy.sh $source_ip $source_dir $app_name $app_type $dest_dir
 ```
@@ -143,6 +144,23 @@ sh deploy.sh $source_ip $source_dir $app_name $app_type $dest_dir
 
 
 这里有一点需要注意一下，spug的发布是基于发布任务的，也就是没有发布任务就不能发布。如果在开发环境这样部署服务的话，效率太低了。希望作者可以增加一个可以基于发布任务直接执行的方式，这样对于开发环境就比较友好了。
+
+以上发布配置支持以下几种方式的发布：
+- 构建+部署
+- 只构建，不部署
+- 只部署，不构建
+
+#### 构建+部署
+
+发布版本未成功构建过，文件服务器上没有对应版本的部署包，同时选中目标服务器(文件服务器除外)。
+
+#### 只构建，不部署
+
+发布版本未成功构建过，文件服务器上没有对应版本的部署包，同时只选中文件服务器。
+
+#### 只部署，不构建
+
+发布版已成功构建，文件服务器上有对应版本的部署包，同时选中目标服务器(文件服务器除外)。
 
 ## 监控告警
 
