@@ -47,6 +47,7 @@
 ## <font size=3>- [转：WRK性能测试入门](2020/WRK性能测试入门.md)
 ## <font size=3>- [转：服务端性能测试](2020/服务端性能测试.md)
 ## <font size=3>- [转：深入浅出开源性能测试工具-Locust](2020/深入浅出开源性能测试工具-Locust.md)
+## <font size=3>- [压力测试工具Locust安装与使用](2020/压力测试工具Locust安装与使用.md)
 ## <font size=3>- [用 TestNG 和 PowerMock 做单元测试](2016/用TestNG和PowerMock做单元测试.md)
 ## <font size=3>- [Golang单元测试](2016/Golang单元测试.md)
 

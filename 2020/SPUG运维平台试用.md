@@ -63,7 +63,9 @@ spug相对jumpserver来说实现的比较简单，只要配置号登录账号就
 应用发布 --> 应用管理 --> 新建发布 --> 自定义发布 --> 编辑自定义发布 --> 提交
 ```
 
-**本地动作1：拉取代码——构建——发布**
+#### MAVEN项目示例
+
+本地动作1：拉取代码——构建——发布
 
 ```bash
 repourl="http://gitea.51trust.com/server/ywx-parent.git"
@@ -99,7 +101,7 @@ sh upload.sh $source_dir $app_name $dest_ip $dest_dir
 ```
 
 
-**目标主机动作1：部署**
+目标主机动作1：部署
 
 ```bash
 source_ip=192.168.126.39
@@ -109,7 +111,7 @@ app_type=maven
 dest_dir=/opt/am
 
 if [ "$SPUG_HOST_NAME" = "$source_ip" ]; then
-    echo "跳过部署步骤"
+    echo "`date +%T` 跳过部署步骤"
     exit 0
 fi
 
@@ -118,6 +120,18 @@ sh deploy.sh $source_ip $source_dir $app_name $app_type $dest_dir
 ```
 
 ![](../img/spug/spug-cd1.png)
+
+#### NPM项目示例
+
+本地动作1：拉取代码——构建——发布
+
+```bash
+```
+
+目标主机动作1：部署
+
+```bash
+```
 
 
 这里有一点需要注意一下，spug的发布是基于发布任务的，也就是没有发布任务就不能发布。如果在开发环境这样部署服务的话，效率太低了。希望作者可以增加一个可以基于发布任务直接执行的方式，这样对于开发环境就比较友好了。
