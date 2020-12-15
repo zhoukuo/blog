@@ -5,7 +5,7 @@
 镜像下载&容器创建，端口为8089
 
 ```
-docker run -dit -p 8089:8089 --volume=/opt/locust:/mnt/locust -t locustio/locust -f /mnt/locust/locustfile.py --master
+docker run -dit -p 8089:8089 --volume=/opt/locust:/mnt/locust -t locustio/locust -f /mnt/locust/locustfile.py --master --web-host=0.0.0.0
 ```
 
 访问地址：http://192.168.126.207:8089 
@@ -14,7 +14,7 @@ docker run -dit -p 8089:8089 --volume=/opt/locust:/mnt/locust -t locustio/locust
 
 命令行方式执行
 ```
-locust -f locustfile.py --host=http://192.168.122.46 --headless -u 100
+locust -f locustfile.py --host=http://192.168.122.46 --headless -u 1
 ```
 
 以工作进程方式启动，进程数量与CPU核心数量相同
