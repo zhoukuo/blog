@@ -5,7 +5,7 @@ zhoukuo@2020-04-26
 最近 Ubuntu 发布了 20.04 LTS 版本，我也在第一时间安装体验。由于各种 Linux 发行版本并不像 MacOS、Windows 一样开箱即用，因此需要做很多配置。每次配置都需要查阅各种资料，虽然网络上有很多配置文章，但基本上都会存在一些问题。
 
 ```
-安装智能拼音：sudo apt install ibus-libpinyin ; sudo apt install ibus-clutter
+安装搜狗拼音：sudo apt install fcitx-bin;sudo apt-get install fcitx-table;sudo dpkg -i sogoupinyin*.deb
 ```
 ```
 dock显示放到底部： 设置->外观->屏幕上位置
