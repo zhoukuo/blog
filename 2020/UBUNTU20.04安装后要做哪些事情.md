@@ -6,6 +6,7 @@ zhoukuo@2020-04-26
 
 ```
 安装搜狗拼音：sudo apt install fcitx-bin;sudo apt-get install fcitx-table;sudo dpkg -i sogoupinyin*.deb
+参考：https://www.linuxprobe.com/ubuntu20-04-install-sogou.html
 ```
 ```
 dock显示放到底部： 设置->外观->屏幕上位置
