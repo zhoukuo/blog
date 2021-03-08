@@ -53,7 +53,7 @@
 
 
 ### 自动化运维
-
+## <font size=3>- [centos7转debian10的注意事项](2021/centos7转debian10的注意事项.md)
 ## <font size=3>- [转：ELK—集中式日志解决方案](2019/ELK-集中式日志解决方案.md)
 ## <font size=3>- [转：Loki—轻量级的日志聚合系统](2019/Loki——轻量级的日志聚合系统.md)
 ## <font size=3>- [Promethus监控之—进程监控](2019/Promethus监控之—进程监控.md)
