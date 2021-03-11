@@ -1,5 +1,5 @@
 
-# 从centos7转debian10注意事项
+# centos7转debian10的注意事项
 zhoukuo@20210308
 
 ### 0. 地区选择中国，安装后控制台乱码，怎么解决？
