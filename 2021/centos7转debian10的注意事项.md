@@ -12,7 +12,7 @@ zhoukuo@20210308
 >apt install ssh
 # 允许通过密码登录
 PasswordAuthentication yes
-```bash
+```
 
 ### 2. 重启系统后无法ssh
 
