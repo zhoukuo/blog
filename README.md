@@ -50,7 +50,7 @@
 ## <font size=3>- [压力测试工具Locust安装与使用](2020/压力测试工具Locust安装与使用.md)
 ## <font size=3>- [用 TestNG 和 PowerMock 做单元测试](2016/用TestNG和PowerMock做单元测试.md)
 ## <font size=3>- [Golang单元测试](2016/Golang单元测试.md)
-## <font size=3>- [使用POSTMAN和NEWMAN进行接口自动化测试](2021/使用POSTMAN和NEWMAN进行接口自动化测试.md)
+## <font size=3>- [使用POSTMAN进行接口自动化测试](2021/使用POSTMAN进行接口自动化测试.md)
 
 ### 自动化运维
 ## <font size=3>- [centos7转debian10的注意事项](2021/centos7转debian10的注意事项.md)
