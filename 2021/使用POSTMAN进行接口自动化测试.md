@@ -46,7 +46,7 @@ zhoukuo@2021-10-08
 
 1.使用编程语言编写测试脚本，常用的如：python、java、shell
 
-2.通过第三方工具编写测试脚本，常用的如：postman、jmeter
+2.通过第三方工具编写测试脚本，常用的如：postman、jmeter、curl
 
 ### 选择POSTMAN的理由：
 
