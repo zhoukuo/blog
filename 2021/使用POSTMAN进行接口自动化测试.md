@@ -81,7 +81,7 @@ zhoukuo@2021-10-08
 1.测试环境安装newman
 
 ```bash
-pip3 install newman
+npm install -g newman
 
 ```
 
