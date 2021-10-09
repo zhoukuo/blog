@@ -69,7 +69,7 @@
 ### 测试 / 运维开发
 
 ## <font size=3>- [UBUNTU20.04安装后要做哪些事情](2020/UBUNTU20.04安装后要做哪些事情.md)
-## <font size=3>- [SHELL的使用](2016/shell的使用.md)
+## <font size=3>- [转：SHELL的使用](2016/shell的使用.md)
 ## <font size=3>- [转：LINUX常用处理文件的命令](2016/常用处理文件的命令.md)
 ## <font size=3>- [转：LINUX有意义的目录](2016/有意义的目录.md)
 ## <font size=3>- [转：每一个程序员需要了解的10个Linux命令](2016/每一个程序员需要了解的10个Linux命令.md)
